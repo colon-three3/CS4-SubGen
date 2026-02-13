@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="98.0" prefWidth="601.0">
+         <left>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="36.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+                  <Text layoutX="69.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREW">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="201.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="37.0" layoutY="23.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+                  <Text layoutX="72.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROLE">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="62.0" layoutX="36.0" layoutY="23.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+                  <Text layoutX="84.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+      <SplitPane dividerPositions="0.31605351170568563" prefHeight="309.0" prefWidth="600.0" style="-fx-background-color: skyblue;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="178.0">
+               <children>
+                  <GridPane layoutX="6.0" layoutY="18.0" prefHeight="272.0" prefWidth="183.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="87.0" minWidth="10.0" prefWidth="80.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="128.0" minWidth="10.0" prefWidth="103.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="68.0" GridPane.rowIndex="1" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="68.0" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Baskerville Old Face" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Baskerville Old Face" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Baskerville Old Face" size="14.0" />
+                           </font>
+                        </Text>
+                        <Circle fill="DODGERBLUE" radius="41.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets left="7.0" right="4.0" />
+                           </GridPane.margin>
+                        </Circle>
+                        <Circle fill="DODGERBLUE" radius="41.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="7.0" right="4.0" />
+                           </GridPane.margin>
+                        </Circle>
+                        <Circle fill="DODGERBLUE" radius="41.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="7.0" right="4.0" />
+                           </GridPane.margin>
+                        </Circle>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="208.0" prefWidth="441.0">
+               <children>
+                  <GridPane layoutX="16.0" layoutY="11.0" prefHeight="286.0" prefWidth="375.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" GridPane.columnIndex="1" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" GridPane.rowIndex="1" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" GridPane.rowIndex="2" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="61.0" stroke="BLACK" strokeType="INSIDE" width="170.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ROLE" textAlignment="CENTER">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ROLE" textAlignment="CENTER" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ROLE" textAlignment="CENTER" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" textAlignment="CENTER" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Baskerville Old Face" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</FlowPane>
